@@ -4,14 +4,14 @@ AAsker Solution Convert Python Script to WEBUI
 ```
 Instructions
 ```
-1) Ubuntu 14.*
-2) Python 2.7
-3) apt-get install pythoon-dev build-essential python-igraph python-pip -y
-4) pip install --upgrade pip
-5) pip install flask gunicorn gevent biopython
-6) git clone https://github.com/subhashdasyam/bountify_aasker.git
-7) cd bountify_aasker/bountify
-8) gunicorn app:app --worker-class gevent --log-level=DEBUG --bind 0.0.0.0:8080 --timeout 600
+* Ubuntu 14.*
+* Python 2.7
+* apt-get install pythoon-dev build-essential python-igraph python-pip -y
+* pip install --upgrade pip
+* pip install flask gunicorn gevent biopython
+* git clone https://github.com/subhashdasyam/bountify_aasker.git
+* cd bountify_aasker/bountify
+* gunicorn app:app --worker-class gevent --log-level=DEBUG --bind 0.0.0.0:8080 --timeout 600
 
 ```
 Please let me know if this isn't working i can help you
