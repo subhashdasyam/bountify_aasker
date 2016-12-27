@@ -6,7 +6,7 @@ Instructions
 ```
 * Ubuntu 14.*
 * Python 2.7
-* apt-get install pythoon-dev build-essential python-igraph python-pip -y
+* apt-get install python-dev build-essential python-igraph python-pip -y
 * pip install --upgrade pip
 * pip install flask gunicorn gevent biopython
 * git clone https://github.com/subhashdasyam/bountify_aasker.git
