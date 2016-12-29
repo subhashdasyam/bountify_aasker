@@ -8,7 +8,7 @@ Instructions
 * Python 2.7
 * apt-get install python-dev build-essential python-igraph python-pip -y
 * pip install --upgrade pip
-* pip install flask gunicorn gevent biopython
+* pip install flask gunicorn gevent biopython flask-socketio
 * git clone https://github.com/subhashdasyam/bountify_aasker.git
 * cd bountify_aasker/bountify
 * gunicorn app:app --worker-class gevent --log-level=DEBUG --bind 0.0.0.0:8080 --timeout 600
